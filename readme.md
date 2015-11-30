@@ -323,13 +323,14 @@ Here's the suggested structure for your WDI directory. Please create the followi
 * hostname
 * ping
 
-## Terminal Exercises
-
-* [A New Terminal](https://github.com/ATL-WDI-Exercises/intro-to-command-line/blob/master/star_wars_command_line.md)
-
 --------------------------------------------------------------------------------
 
 ## Homework / Practice
+
+### A New Terminal
+
+[A New Terminal](https://github.com/ATL-WDI-Exercises/intro-to-command-line/blob/master/star_wars_command_line.md)
+
 ### CLI Gardening
 
 [CLI Gardening](https://github.com/ga-dc/cli_gardening)
@@ -343,7 +344,6 @@ Here's the suggested structure for your WDI directory. Please create the followi
 [Command Line Fu](https://github.com/ga-dc/command_line_fu)
 
 --------------------------------------------------------------------------------
-
 
 ## Sample Quiz Questions
 

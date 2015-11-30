@@ -123,10 +123,6 @@ We won't go deep into environments yet, but everytime a command is run, it may c
 
 --------------------------------------------------------------------------------
 
-## BREAK (10 minutes)
-
---------------------------------------------------------------------------------
-
 ## Paths
 ### What is a 'path'?
 

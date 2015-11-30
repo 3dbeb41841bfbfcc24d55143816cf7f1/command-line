@@ -28,8 +28,6 @@ Turn & Talk: Given your exposure to the command line so far (prework and install
 * What do you like / dislike about using it?
 * It what ways might it be better or worse for Developers? (Compared to a GUI)
 
-![](http://coding-journal.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-30-at-12.02.14.png)
-
 ---------------------------------------------------------------------------
 
 ## Background
@@ -144,6 +142,7 @@ All paths point to a single file or directory, but we can write paths to be eith
 
 An absolute path will always tell us exactly where the file or directory is. An example in the real world would be a mailing address:
 
+```
 GA
 2nd Floor, Ponce City Market
 675 Ponce De Leon Ave NE
@@ -152,6 +151,7 @@ USA
 Earth
 Solar System
 Milky Way
+```
 
 Absolute paths start with a `/` and go from top down (least specific to more specific):
 
@@ -220,6 +220,19 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
     - `echo "Hello, WDI" > greeting.txt`
     - `ls -als | sort -nr | head`
     - `ls '*.md' | xargs grep -i wdi`
+    - `figlet "I Love GA" | lolcat`
+    - `fortune -s | cowsay -f tux | lolcat`
+
+## File System basics
+* directories / folders and files
+* file types
+* tree structure: parents and children
+* UNIX commands for files and directories:
+  - pwd, cd, ls, mkdir, rmdir
+  - absolute vs. relative paths
+  - $HOME and ~
+  - touch, cat, more/less, cp, mv, rm
+  - wildcards
 
 ## File ownership
 * All files and directories belong to an owner and a group
@@ -238,6 +251,12 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
   - File: user can use the file as a UNIX command
   - Directory: user can change into the directory
 * `chmod options files`
+
+## Processes
+* foreground and background processes
+* process ID
+* process input and output (stdin, stdout, stderr)
+* The `ps` command
 
 --------------------------------------------------------------------------------
 
@@ -310,7 +329,7 @@ Here's the suggested structure for your WDI directory. Please create the followi
 
 --------------------------------------------------------------------------------
 
-## Homework
+## Homework / Practice
 ### CLI Gardening
 
 [CLI Gardening](https://github.com/ga-dc/cli_gardening)
@@ -318,13 +337,6 @@ Here's the suggested structure for your WDI directory. Please create the followi
 ### Kitchen Organizer
 
 [Kitchen Organizer](https://github.com/ga-dc/kitchen_organizer)
-
-To Submit:
-
-1. Go to the [issues page for the kitchen exercise](https://github.com/ga-dc/kitchen_organizer/issues)
-2. Click 'New Issue’.
-3. For the title, just put “Day 1 HW” or something similar
-4. For the description, copy paste the commands you used to complete the kitchen organizer exercise. (No need to submit anything related to gardener.)
 
 ### Command Line Fu (Optional)
 
@@ -363,8 +375,7 @@ Here are some advanced commands worth checking out that we may not explicitly go
 * find
 * cal
 * vim
-  - vimtutor
 
-## Feeling Adventurous?
-
-Bash isn't the only option. Check out zsh (http://code.joejag.com/2014/why-zsh.html) or fish (http://fishshell.com/)
+## References
+* [Unix Intro Course](http://www.doc.ic.ac.uk/~wjk/UnixIntro/)
+* [Bash Beginner's Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)

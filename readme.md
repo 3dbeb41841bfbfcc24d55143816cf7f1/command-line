@@ -49,10 +49,10 @@ An operating system (OS) is a resource manager. It takes the form of a set of so
 
 The CLI has many benefits over a GUI:
 
-**Speed**
+### Speed
 While it may not seem so yet, over time, most developers can achieve common tasks much faster using the command line. Features such as tab completion, history searching / modifying, and piping commands all contribute to this speed.
 
-**Precision**
+### Precision
 Because of its nature as a text-based interface, the command line provides us with a lot more precision. We can look at the commands we're about to enter and understand exactly what they will do. This also allows:
 
 Examples:
@@ -62,16 +62,16 @@ ls -als | sort -nr | head -5               # List the 5 largest files in the cur
 find . -name '*.md' | xargs grep -i unix   # Search for Markdown files containing "unix"
 ```
 
-**Repeatability / Scriptability**
+### Repeatability / Scriptability
 The precision of commands and their text-based nature means we can easily save them and re-use them, or share them with others when appropriate.
 
-**Tools**
+### Tools
 There are a very large number of tools available on the command line, to help us achieve almost any task. Most of them are built in, but we can download almost any others using `brew` on a mac, or `apt-get` on linux.
 
-**Modularity / Composition**
+### Modularity / Composition
 Tools built for the command line usually follow something called the ['unix philosophy'](http://catb.org/esr/writings/taoup/html/#id2807216), which is that each tool should do ~1 thing, and do it well. Complex tasks can be achieved by chaining tools together.
 
-**Coolness Factor**
+### Coolness Factor
 After you master the command line you can impress your friends and star in a spy movie!!!
 
 --------------------------------------------------------------------------------

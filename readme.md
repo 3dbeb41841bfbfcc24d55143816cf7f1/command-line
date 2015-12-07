@@ -71,6 +71,9 @@ There are a very large number of tools available on the command line, to help us
 **Modularity / Composition**
 Tools built for the command line usually follow something called the ['unix philosophy'](http://catb.org/esr/writings/taoup/html/#id2807216), which is that each tool should do ~1 thing, and do it well. Complex tasks can be achieved by chaining tools together.
 
+**Coolness Factor**
+After you master the command line you can impress your friends and star in a spy movie!!!
+
 --------------------------------------------------------------------------------
 
 ### Some TERMinology

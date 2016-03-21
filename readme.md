@@ -3,7 +3,7 @@
 ## Outline
 * [Learning Objectives](#learning-objectives)
 * [Background](#background)
-* [Why The CLI?](#why-the-cli?)
+* [Why The CLI?](#why-the-cli)
 * [Some TERMinology](#some-terminology)
 * [The Basics of CLI](#the-basics-of-cli)
 * [Paths](#paths)
@@ -11,9 +11,9 @@
 * [Common Commands](#common-commands)
 * [Unsafe Commands](#unsafe-commands)
 * [WDI Environment](#wdi-environment)
-* [Homework / Practice](#homework---practice)
+* [Homework / Practice](#homework--practice)
 * [Sample Quiz Questions](#sample-quiz-questions)
-* [Hungry for More?](#hungry-for-more?)
+* [Hungry for More?](#hungry-for-more)
 * [References](#references)
 
 ## Learning Objectives

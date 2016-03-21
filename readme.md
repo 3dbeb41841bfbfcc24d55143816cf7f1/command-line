@@ -1,5 +1,21 @@
 # The CLI (Command Line Interface)
 
+## Outline
+* [Learning Objectives](#learning-objectives)
+* [Background](#background)
+* [Why The CLI?](#why-the-cli?)
+* [Some TERMinology](#some-terminology)
+* [The Basics of CLI](#the-basics-of-cli)
+* [Paths](#paths)
+* [The BASH Shell](#the-bash-shell)
+* [Common Commands](#common-commands)
+* [Unsafe Commands](#unsafe-commands)
+* [WDI Environment](#wdi-environment)
+* [Homework / Practice](#homework---practice)
+* [Sample Quiz Questions](#sample-quiz-questions)
+* [Hungry for More?](#hungry-for-more?)
+* [References](#references)
+
 ## Learning Objectives
 
 ### Concepts
@@ -20,7 +36,7 @@
   - Manage files and directories
 - List unsafe commands
 
-## Framing
+### Framing
 
 Turn & Talk: Given your exposure to the command line so far (prework and installfest), discuss the following questions:
 
@@ -76,7 +92,7 @@ After you master the command line you can impress your friends and star in a spy
 
 --------------------------------------------------------------------------------
 
-### Some TERMinology
+## Some TERMinology
 * **Terminal** - the application that presents a command line interface to the user.
 * **Shell** - a command line interpreter that executes the commands that the user types. Common shells are sh, bsh, csh, ksh, bash, and zsh (we will be using bash in this class)
 * **Process** - a program that is currently running on the computer
@@ -210,7 +226,7 @@ We can use multiple `..` to go up multiple levels:
 
 NOTE: files that begin with a dot are considered `hidden` files in that they are not commonly viewed by the user. You can always view them if needed with the `ls -a` command.
 
-## Command line basics
+### Command line basics
   * UNIX command format: `command --flag1 --flag2 arguments`
   * The PATH
     - the `which` command vs. the BASH `type` command
@@ -222,7 +238,7 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
     - `figlet "I Love GA" | lolcat`
     - `fortune -s | cowsay -f tux | lolcat`
 
-## File System basics
+### File System basics
 * directories / folders and files
 * file types
 * tree structure: parents and children
@@ -233,13 +249,13 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
   - touch, cat, more/less, cp, mv, rm
   - wildcards
 
-## File ownership
+### File ownership
 * All files and directories belong to an owner and a group
 * The owner and the group have specific access to the file/directory
 * `chown <new-owner> files`
 * `chgrp <new-group> files`
 
-## File permissions
+### File permissions
 * Read
   - File: user can view the contents of the file
   - Directory: user can list the files
@@ -251,7 +267,7 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
   - Directory: user can change into the directory
 * `chmod options files`
 
-## Processes
+### Processes
 * foreground and background processes
 * process ID
 * process input and output (stdin, stdout, stderr)

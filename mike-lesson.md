@@ -34,25 +34,60 @@ An operating system (OS) is a resource manager. It takes the form of a set of so
 * Automation: you can create scripts that run a series of UNIX commands.
 
 ### Some TERMinology
-* Terminal - the application that presents a command line interface to the user.
-* Shell - a command line interpreter that executes the commands that the user types. Common shells are sh, bsh, csh, ksh, bash, and zsh (we will be using bash in this class)
+
+* __Terminal__ : a program on a MAC that launches a window from which we can work with the computer via a command line interface (CLI).
+* __Command Line Interface__ : an text-based User Interface for typing text commands and reading text results
+* __REPL__ : a program that interacts with the user via a _R_ead, _E_valuate, _P_rint, _L_oop. The REPL offers a prompt to the user where the user enters a command. Then the REPL _R_eads the command, _E_valuates (interprets and executes) the command, _P_rints the results, and _L_oops (thus displaying the prompt to the user again. REPL's are the ultimate servants waiting to do whatever you command them to do!
+* __Shell__ : a REPL that offers a set of general purpose commands for computer administration, launching programs, process management, and file system management. Just as we have many programming languages we can choose from, there are many shells as well. Common shells are `sh`, `bsh`, `csh`, `ksh`, `bash`, and `zsh`. We will be using the `bash` shell in this class.
+  - `sh` or Bourne Shell: the original shell still used on UNIX systems and in UNIX-related environments.
+  - `bash` or Bourne Again shell: the standard GNU shell, intuitive and flexible. Probably most advisable for beginning users while being at the same time a powerful tool for the advanced and professional user.
+  - `csh` or C shell: the syntax of this shell resembles that of the C programming language. Sometimes asked for by programmers.
+  - `tcsh` or TENEX C shell: a superset of the common C shell, enhancing user-friendliness and speed. That is why some also call it the Turbo C shell.
+  - `ksh` or the Korn shell: sometimes appreciated by people with a UNIX background. A superset of the Bourne shell.
+  - `zsh`: another popular shell that is derived from the Bourne Shell.
+
 * Process - a program that is currently running on the computer
 * Application - a program that consists of one or more processes
 
+> Generally speaking a process may be running in the background while an Application (which consists of one or more processes) has a visible UI.
+
 ## The BASH Shell
-* Important configuration files
-  - ~/.bash_profile
-  - ~/.bashrc
-* Why 2 files?
-  - .bash_profile is executed for login shells
-  - .bashrc is executed for interactive non-login shells
+
+## prompt
+* customizing your prompt
+* liquid prompt
+
+## env variables
+* PATH
+* the `path` command
+
+## scripts
+
+## interacting with the file system
+* ls, cd, mkdir, pwd, rmdir, touch, rm
+
+## managing processes
+* ps, top, Activity Monitor
+
+## file permissions
+* chown, chmod, rwx
+* permissions for directories vs. files
+
+## Important configuration files
+* ~/.bash_profile
+* ~/.bashrc
+
+Why 2 files?
+
+* .bash_profile is executed for login shells
+* .bashrc is executed for interactive non-login shells
 
 NOTE: files that begin with a dot are considered `hidden` files in that they are not commonly viewed by the user. You can always view them if needed with the `ls -a` command.
 
 ## Command line basics
   * UNIX command format: `command --flag1 --flag2 arguments`
   * The PATH
-    - the `which` command vs. the BASH `type` command
+    - the `which` command vs. the BASH `type -a` command
     - `alias which='type -a`
   * Pipes and Redirection
     - `echo "Hello, WDI" > greeting.txt`
@@ -94,3 +129,4 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
 
 ## References
 * [Unix Intro Course](http://www.doc.ic.ac.uk/~wjk/UnixIntro/)
+* [BASH Beginner's Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)

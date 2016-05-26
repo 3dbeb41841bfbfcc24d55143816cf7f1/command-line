@@ -90,6 +90,8 @@ Tools built for the command line usually follow something called the ['unix phil
 ### Coolness Factor
 After you master the command line you can impress your friends and star in a spy movie!!!
 
+![Command Line Coolness](images/fast-developer.gif)
+
 --------------------------------------------------------------------------------
 
 ## Some TERMinology
@@ -315,7 +317,7 @@ Generally, you shouldn't need to run commands with sudo in this course. If you'r
 
 ### rm
 
-`rm` deletes files with no confirmation, and there's no `trash` to recover them from. Use `rm`, and especially `rm -rf` with caution.
+`rm` deletes files with no confirmation, and there's no `trash` to recover them from. Use `rm`, and especially `rm -rf` ___with caution!!!___
 
 ## WDI Environment
 

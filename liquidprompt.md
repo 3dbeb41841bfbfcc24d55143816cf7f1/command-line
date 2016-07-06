@@ -2,9 +2,13 @@
 
 We can customize the appearance of our BASH prompt to include fun and/or useful information. We can do this manually but there is a very nice GitHub project called _LiquidPrompt_ that contains all of the BASH code to provide us with a very powerful BASH prompt. Also, Liquid Prompt is fully customizable but it does a great job right out of the box!
 
-## Install Liquid Prompt
+Here is a screenshot of _LiquidPrompt_ in action:
 
-To install liquid prompt, type the following commands into your Terminal:
+![LiquidPrompt in Action](images/liquidprompt.png)
+
+## Install LiquidPrompt
+
+To install LiquidPrompt, type the following commands into your Terminal:
 
 ```bash
 cd ~

@@ -339,6 +339,12 @@ Here's the suggested structure for your WDI directory. Please create the followi
 * whoami
 * hostname
 * ping
+* pushd
+* popd
+
+## Setting Up Your BASH Prompt
+
+To setup a very nice BASH Prompt, see [LiquidPrompt](liquidprompt.md).
 
 --------------------------------------------------------------------------------
 

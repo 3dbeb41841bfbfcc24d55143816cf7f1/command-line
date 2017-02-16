@@ -57,7 +57,7 @@ An operating system (OS) is a resource manager. It takes the form of a set of so
 * The Seventh Edition, released in 1978, marked a split in UNIX development into two main branches:
   - SYSV (System 5) - developed by AT&T and other commercial companies.
   - BSD (Berkeley Software Distribution) - arose from the University of California at Berkeley where Ken Thompson spent a sabbatical year.
-* Apple Computer transitioned its origianal home grown operating system over to a BSD variant of UNIX in 2000 known as OSX.
+* Apple Computer transitioned its origidnal home grown operating system over to a BSD variant of UNIX in 2000 known as OSX.
 * In 2007 OSX became a certified UNIX.
 * Linux is a free open source UNIX OS for PCs that was originally developed in 1991 by Linus Torvalds, a Finnish undergraduate student.
 

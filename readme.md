@@ -239,6 +239,7 @@ NOTE: files that begin with a dot are considered `hidden` files in that they are
     - `ls '*.md' | xargs grep -i wdi`
     - `figlet "I Love GA" | lolcat`
     - `fortune -s | cowsay -f tux | lolcat`
+    - `ps aux | grep ruby > currently_running_ruby_processes.txt`
 
 ### File System basics
 * directories / folders and files

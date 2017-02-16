@@ -96,7 +96,7 @@ After you master the command line you can impress your friends and star in a spy
 
 ## Some TERMinology
 * **Terminal** - the application that presents a command line interface to the user.
-* **Shell** - a command line interpreter that executes the commands that the user types. Common shells are sh, bsh, csh, ksh, bash, and zsh (we will be using bash in this class)
+* **Shell** - a command line interpreter that executes the commands that the user types. Common shells are sh, bsh, csh, ksh, bash, fish, and zsh (we will be using bash in this class)
 * **Process** - a program that is currently running on the computer
 * **Application** - a program that consists of one or more processes
 
